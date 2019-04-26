@@ -9,21 +9,13 @@ public class SumOfIntegers {
 		int i,j,k,l,n,flag=0;
 		
 		Scanner sc = new Scanner(System.in);
-		
-		// user input for how much no they wanted to store.
-		
 		System.out.println("how much no ..? ");
 		n = sc.nextInt();
 		System.out.println("enter the values into array :- ");
 			
-		
-		// store the number into an array.
 			for(i=0;i<n;i++) {
 				intArray[i] = sc.nextInt();
 			}
-			
-			// Iteration for the addition of the number and next number.
-			
 			for(j=0;j<n-2;j++) {
 				for(k=j+1;k<n-1;k++) {
 					for(l=k+1;l<n;l++) {

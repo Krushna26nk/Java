@@ -8,14 +8,8 @@ public class LeapYear {
 		
 		Scanner sc = new Scanner(System.in);
 		int year;
-		
-		// user input of Year to check the Leap Year.
-		
 		System.out.println("Enter The Year To Check");
 		year = sc.nextInt();
-		
-		
-		// condition for leap year.
 		
 		if((year%4 == 0 && year%100 != 0 ) || year%400 == 0) {
 

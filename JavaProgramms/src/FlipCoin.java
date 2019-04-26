@@ -1,4 +1,4 @@
-package JavaProgramms;
+package blProgramms;
 import java.util.Scanner;
 import java.io.*;
 public class FlipCoin {
@@ -8,12 +8,12 @@ public class FlipCoin {
 		
 		Scanner sc = new Scanner(System.in);
 		int num,heads=0, tails=0;
-		System.out.println("Enter no. Of to flip Coin");		// user input to flip the coin.
+		System.out.println("Enter no. Of to flip Coin");
 		num = sc.nextInt();
 		int flip = num;
 		for(int i = 0 ;i<flip;i++) {
 			
-			if( Math.random() < 0.5) {					// condition where the HEAD and TAIL Lies.
+			if( Math.random() < 0.5) {
 				heads++;				
 			
 			}else {
@@ -21,10 +21,10 @@ public class FlipCoin {
 			}
 			
 		}
-		System.out.println("Heads"+heads);  		// number of HEADS and TAILS Occured.
+		System.out.println("Heads"+heads);
 		System.out.println("Tails"+tails);
 		
-		int headPercentage = ( heads * 100 ) / flip;	// Percentage of the HEAD and TAIL .
+		int headPercentage = ( heads * 100 ) / flip;
 		int tailPercentage = ( tails * 100 ) / flip;
 		
 		System.out.println("Heads Percentage :- "+( heads * 100 ) / flip);

@@ -1,23 +1,23 @@
-package JavaProgramms;
+package blProgramms;
 import java.util.Scanner;
 
 public class Gambler {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		int cash,goal,times;
-		System.out.println("Enter The Cash :- ");			// user input For Cash .
-		cash = sc.nextInt();		
+		System.out.println("Enter The Cash :- ");
+		cash = sc.nextInt();
 		
-		System.out.println("Enter The Goal :- ");			// user input For Goal HE wants to go .
+		System.out.println("Enter The Goal :- ");
 		goal = sc.nextInt();
 		
-		System.out.println("Enter The No. times :- ");		//  Number of times input for playing the game.
+		System.out.println("Enter The No. times :- ");
 		times = sc.nextInt();
 		
 		if(goal>cash) {
 			gamblerGame(cash,goal,times); 
 		}else {
-			System.out.println("Cash Should Be less than Goal.");	// for valid input.
+			System.out.println("Cash Should Be less than Goal.");
 		}
 		
 	
@@ -30,7 +30,7 @@ public class Gambler {
 		int total=0;
 		
 		for(int i=0;i<times;i++) {
-			if(cash>0 && cash<goal) {		// Based on occurences win.
+			if(cash>0 && cash<goal) {
 				
 				if(Math.random() < 0.5) {
 					cash++;
@@ -38,7 +38,7 @@ public class Gambler {
 //					times--;
 					
 					
-				}else {					// based on random() function occurences loss.
+				}else {
 					
 					cash--;
 					loss++;
@@ -52,10 +52,6 @@ public class Gambler {
 		}
 		System.out.println(wins);
 		System.out.println(loss);
-								
-		// win percentages
-		// and
-		// Loss Percentages.
 		
 		 total = wins + loss;
 		int winPercentage = ( (wins / total) * 100 );

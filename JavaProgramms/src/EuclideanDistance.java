@@ -1,4 +1,4 @@
-package JavaProgramms;
+package blProgramms;
 import java.util.Scanner;
 
 public class EuclideanDistance {
@@ -6,21 +6,14 @@ public class EuclideanDistance {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int x1=0,y1=0,x2,y2;
-		
-		// Number of inputs from the User...
-		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter x2 and y2 co-ordinates :- ");
 		x2 = sc.nextInt();
 		y2 = sc.nextInt();
 		
-		// calculating differnce between them.
-		
 		int X = x2 - x1;
 		int Y = y2 - y1;
-		
-		// eucleadean Formula implementation. and output.
 		
 		int EuclideanFormula = (int) ( Math.pow(X, 2) + Math.pow(Y, 2) );
 		
