@@ -1,3 +1,13 @@
+
+
+/******                     ********************
+ * Execution         	    : javac Utility.java
+ * Purpose            	    : 
+ * @file                    : Utility.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package blProgramms;
 
 public class Utility {

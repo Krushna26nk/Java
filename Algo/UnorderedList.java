@@ -1,3 +1,13 @@
+
+/******                     ********************
+ * Execution         	    : javac UnorderedList.java
+ * Purpose            	    : Implementation of the unordered list using linked list.
+ * @file                    : UnorderedList.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
+
 package blProgramms;
 //import java.awt.List;
 import  java.util.List;	

@@ -1,3 +1,12 @@
+
+/******                     ********************
+ * Execution         	    : javac EuclideanDistance.java
+ * Purpose            	    : implementation of the Euclidean Distance Formula. 
+ * @file                    : EuclideanDistance.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package JavaProgramms;
 import java.util.Scanner;
 

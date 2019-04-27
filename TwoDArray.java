@@ -1,3 +1,12 @@
+
+/******                     ********************
+ * Execution         	    : javac TwoDArray.java
+ * Purpose            	    : Implementation of 2 dimensional array. 
+ * @file                    : TwoDArray.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package JavaProgramms;
 import java.util.Scanner;
 

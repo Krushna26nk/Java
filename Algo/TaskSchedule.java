@@ -1,3 +1,13 @@
+
+/******                     ********************
+ * Execution         	    : javac TaskScheduling.java
+ * Purpose            	    : Management of the task input from user. 
+ * @file                    : TaskSchedule.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
+
 package blProgramms;
 import java.util.Scanner;
 

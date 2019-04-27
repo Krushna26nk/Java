@@ -1,3 +1,12 @@
+
+/******                     ********************
+ * Execution         	    : javac HarmonicNumber.java
+ * Purpose            	    : Harmonic number of an user input number. 
+ * @file                    : HarmonicNumber.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package JavaProgramms;
 import java.util.Scanner;
 public class HarmonicNumber {

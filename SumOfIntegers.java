@@ -1,4 +1,15 @@
-package blProgramms;
+
+/******                     ********************
+ * Execution         	    : javac SumOfIntegers.java 
+ * Purpose            	    : Calculate The Sum Of integers to zero. 
+ * @file                    : SumOfIntegers.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
+
+
+package JavaProgramms;
 import java.util.Scanner;
 
 public class SumOfIntegers {

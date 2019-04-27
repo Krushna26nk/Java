@@ -1,3 +1,12 @@
+
+/******                     ********************
+ * Execution         	    : javac LeapYear.java
+ * Purpose            	    : identify the user input year is leap or not. 
+ * @file                    : LeapYear.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package blProgramms;
 import java.util.Scanner;
 

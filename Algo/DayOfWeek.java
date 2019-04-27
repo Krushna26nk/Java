@@ -1,3 +1,12 @@
+
+/******                     ********************
+ * Execution         	    : javac DayOfWeek.java
+ * Purpose            	    : For identifying the which day of the week occurs. 
+ * @file                    : DayOfWeek.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package blProgramms;
 import java.util.Scanner;
 
@@ -5,6 +14,8 @@ public class DayOfWeek {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
+		// user input of day , month and year.
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter The Date :- ");
@@ -20,8 +31,12 @@ public class DayOfWeek {
 		int y0 = y - (14*m)/12;
 		int x = y0 + ( y0/4 ) - ( y0/100 ) + ( y0/400);
 		int m0 = m + 12 * ( (14 - m)/12 ) - 2;
+	// formula to get the day of the week.
+
 		int d0 = (d + x + ( 31*m0 ) / 12) % 7;
 		
+	// switch case to display the day according to the number.
+
 		switch(d0) {
 		
 		case 0 : System.out.println("This is Sunday . ");

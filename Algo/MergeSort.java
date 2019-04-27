@@ -1,3 +1,13 @@
+
+/******                     ********************
+ * Execution         	    : javac MergeSort.java
+ * Purpose            	    : Implementation of the merge sort algorithm 
+ * @file                    : MergeSort.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
+
 package blProgramms;
 import java.util.Scanner;
 
@@ -10,9 +20,11 @@ public class MergeSort {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+	// input array to sort.
+
 		int inputArray[]= {48,5,15,24,75,49,25,21};
 		MergeSort ms = new MergeSort();
-		
+	// calling the sort() function	
 		ms.sort(inputArray);
 		
 		for(int i : inputArray) {

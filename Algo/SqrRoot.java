@@ -1,3 +1,13 @@
+
+/******                     ********************
+ * Execution         	    : javac SqrRoot.java
+ * Purpose            	    : Square root using epsilon 
+ * @file                    : SqrRoot.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
+
 package blProgramms;
 import java.util.Scanner;
 

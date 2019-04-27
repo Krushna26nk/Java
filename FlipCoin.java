@@ -1,3 +1,12 @@
+
+/******                     ********************
+ * Execution         	    : javac FlipCoin.java
+ * Purpose            	    : Flip the coin and calculate the percentage of win and loss. 
+ * @file                    : TicTacToe.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package JavaProgramms;
 import java.util.Scanner;
 import java.io.*;
@@ -30,7 +39,7 @@ public class FlipCoin {
 		System.out.println("Heads Percentage :- "+( heads * 100 ) / flip);
 		System.out.println("Tails Percentage :- "+( tails * 100 ) / flip);
 		System.out.println("");
-		System.out.println("Heads vs Tails Percentage :- "+( headPercentage * 100 ) / tailPercentage+" "+( tailPercentage * 100 ) / headPercentage);
+		//System.out.println("Heads vs Tails Percentage :- "+( headPercentage * 100 ) / tailPercentage+" "+( tailPercentage * 100 ) / headPercentage);
 		
 	}
 

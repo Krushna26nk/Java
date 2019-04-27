@@ -1,3 +1,12 @@
+
+/******                     ********************
+ * Execution         	    : javac TemperatureConversion.java
+ * Purpose            	    : conversion of temperaute into celcius an feherinhite. 
+ * @file                    : TemperatureConversion.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package blProgramms;
 import java.util.Scanner;
 

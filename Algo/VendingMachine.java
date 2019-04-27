@@ -1,3 +1,12 @@
+
+/******                     ********************
+ * Execution         	    : javac VendingMachine.java
+ * Purpose            	    : Calculating minimum no. of notes for an user input Rupees value. 
+ * @file                    : VendingMachine.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package blProgramms;
 import java.util.Scanner;
 

@@ -1,3 +1,12 @@
+
+/******                     ********************
+ * Execution         	    : javac WindChill.java
+ * Purpose            	    : Calculation for the wind chill. 
+ * @file                    : WindChill.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package JavaProgramms;
 import java.util.Scanner;
 

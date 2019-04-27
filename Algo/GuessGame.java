@@ -1,3 +1,13 @@
+
+/******                     ********************
+ * Execution         	    : javac GuessGame.java
+ * Purpose            	    : Guessing the Number Gsme. 
+ * @file                    : GuessGame.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
+
 package blProgramms;
 import java.util.Scanner;
 
@@ -7,6 +17,8 @@ public class GuessGame {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
+		// user who have to guess the number between the range.
 
 		System.out.println("Guess Any Number Between 0 to 127. ");
 		sc.next();
@@ -20,12 +32,15 @@ public class GuessGame {
 		}
 		
 		}
+// find function for the  guessing of the user number.
 
 	public static int find() {
 		
 	
 		 int low=0,high=127,mid;
 		 
+// calculating the mid of the range in which the user number is present.
+
 		 while(low!=high) {
 			 
 			 mid = (low+high)/2;

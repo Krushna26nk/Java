@@ -1,3 +1,12 @@
+
+/******                     ********************
+ * Execution         	    : javac Factors.java
+ * Purpose            	    : Factors of the particular input number. 
+ * @file                    : Factors.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package JavaProgramms;
 import java.util.Scanner;
 public class Factors{

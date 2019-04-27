@@ -1,3 +1,12 @@
+
+/******                     ********************
+ * Execution         	    : javac CoupenNumber.java
+ * Purpose            	    : Generating Different Coupen Number
+ * @file                    : CoupenNumber.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package JavaProgramms;
 import java.util.Scanner;
 

@@ -1,3 +1,11 @@
+/******                     ********************
+ * Execution         	    : javac AnagramPalindrome.java
+ * Purpose            	    : to find out the anagram no from the palindrome number. 
+ * @file                    : AnagramPalindrome.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package blProgramms;
 
 public class AnagramPalindrome {

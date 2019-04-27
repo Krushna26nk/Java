@@ -1,3 +1,13 @@
+
+/******                     ********************
+ * Execution         	    : javac ParenthesisBalanced.java
+ * Purpose            	    : Implementation of the file reading using Stack.
+ * @file                    : ParenthesisBalanced.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
+
 package blProgramms;
 import java.io.BufferedReader;
 import java.io.FileReader;

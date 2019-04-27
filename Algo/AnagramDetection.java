@@ -1,14 +1,26 @@
+/******                     ********************
+ * Execution         	    : javac AnagramDetection.java
+ * Purpose            	    : Detecting an string is anagram or not. 
+ * @file                    : AnagramDetection.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package blProgramms;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class AnagramDetection {
 	
+		// checkAnagram Function 
+
 	static void CheckAnagram(String string1 , String string2) {
 //		String str3 = string1.replaceAll("\\s", "");
 //		String str4 = string2.replaceAll("\\s", "");
 		
 		boolean status = true;
+		
+		// string comparison	
 		
 		if(string1.length() != string2.length() ) {
 			status = false;
@@ -35,6 +47,8 @@ public class AnagramDetection {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		// String input from user.
+
 		String str1;
 		String str2;
 		

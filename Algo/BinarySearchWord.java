@@ -1,3 +1,11 @@
+/******                     ********************
+ * Execution         	    : javac BinarySearchWord.java
+ * Purpose            	    : Programm to search the word from the file using FileReader. 
+ * @file                    : BinarySearchWord.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package blProgramms;
 
 import java.io.FileReader;
@@ -27,12 +35,16 @@ public class BinarySearchWord {
 				String temp = null;
 				
 				try {
-					
+				
+		// BufferedReader for reading the file from system.
+	
 					BufferedReader fileRead = new BufferedReader(new FileReader("/home/admin1/Desktop/sample.txt"));
 				                // For Reading The Line From The File
 					try {
 						String a = fileRead.readLine(); 
 					String arr[] = a.split(" ");  // Splitting the words from file.	
+
+		// getting words from the file and storing into an array
 					
 					for( int i = 0; i<arr.length ; i++) {
 						

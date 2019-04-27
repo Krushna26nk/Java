@@ -1,3 +1,13 @@
+
+/******                     ********************
+ * Execution         	    : javac PrimeNumbers.java
+ * Purpose            	    : Finding out the prime  numbers 
+ * @file                    :PrimeNumbers.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
+
 package blProgramms;
 
 public class PrimeNumbers {

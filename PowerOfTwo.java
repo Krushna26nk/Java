@@ -1,3 +1,13 @@
+
+/******                     ********************
+ * Execution         	    : javac PowerOfTwo.java 
+ * Purpose            	    : Power of the Number in terms of 2. 
+ * @file                    : PowerOfTwo.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
+
 package blProgramms;
 import java.util.Scanner;
 public class PowerOfTwo{

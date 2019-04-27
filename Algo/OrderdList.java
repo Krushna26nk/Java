@@ -1,3 +1,13 @@
+
+/******                     ********************
+ * Execution         	    : javac OrderdList.java
+ * Purpose            	    : ordered list implementation using stack.
+ * @file                    : OrderedList.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
+
 package blProgramms;
 
 import java.util.Scanner;

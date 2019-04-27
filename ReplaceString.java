@@ -1,4 +1,16 @@
-package blProgramms;
+
+
+/******                     ********************
+ * Execution         	    : javac ReplaceString.java
+ * Purpose            	    : Replacing user input string. 
+ * @file                    : ReplaceString.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
+
+
+package JavaProgramms;
 
 import java.util.Scanner;
 

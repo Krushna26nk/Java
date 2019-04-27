@@ -1,3 +1,12 @@
+
+/******                     ********************
+ * Execution         	    : javac Gambler.java
+ * Purpose            	    : Gambler game implementation 
+ * @file                    : Gambler.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
 package JavaProgramms;
 import java.util.Scanner;
 

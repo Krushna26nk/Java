@@ -1,3 +1,15 @@
+
+/******                     ********************
+ * Execution         	    : javac StopWatch.java 
+ * Purpose            	    : Calculate Elapsed Time. 
+ * @file                    : StopWatch.java
+ * @author  Krushna
+ * @version 1.0
+ ******                     ******************/
+
+
+
+
 package JavaProgramms;
 import java.util.Scanner;
 
