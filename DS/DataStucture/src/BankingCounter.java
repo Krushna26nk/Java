@@ -65,22 +65,28 @@ public class BankingCounter {
 			System.out.println("How Much Amount want to Withdraw ?");
 			int amount2 = sc.nextInt();
 			
-			if(amount2>(balance+minBal)) {
+			if(amount2>(balance)) {
 				System.out.println("Amount is over the Balance.  Thank You ..!");
+				System.out.println("\n");
 			}
 			else {
 				balance = balance - amount2;
 			
 				System.out.println("Withdrew cash successfully.");
+				System.out.println("\n");
 				System.out.println("Bank Balance is -- "+balance);
+				System.out.println("\n");
+				
 			}
 			}
 			break;
 			default:
 				System.out.println("Enter the correct option.");
+				System.out.println("\n");
+				System.out.println("\n");
 		
 		}
-		q.remove();
+		q.remove();System.out.println(q);
 		
 		
 	}
