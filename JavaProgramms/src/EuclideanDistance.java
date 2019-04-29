@@ -1,4 +1,4 @@
-package blProgramms;
+package JavaProgramms;
 import java.util.Scanner;
 
 public class EuclideanDistance {
