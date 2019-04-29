@@ -87,7 +87,7 @@ public class BankingCounter {
 		
 		}
 		q.remove();System.out.println(q);
-		
+		System.out.println(balance);
 		
 	}
 		
