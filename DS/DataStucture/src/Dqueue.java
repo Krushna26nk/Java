@@ -1,13 +1,11 @@
 
 /******                     ********************
- * Execution         	    : javac Dqueue.java
- * Purpose            	    : Implementing the Dqueue interface of class collection of java. 
+ * Execution         	    : java c Dqueue.java
+ * Purpose            	    : Implementing the Dequeue interface of class collection of java. 
  * @file                    : Dqueue.java
  * @author  Krushna
  * @version 1.0
  ******                     ******************/
-
-package blProgramms;
 
 import java.util.Deque;
 import java.util.LinkedList;
