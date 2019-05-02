@@ -33,31 +33,50 @@ public class PrimeNumber2DArray {
 		}
 		
 	}// end of for loop
-//	System.out.println(str);
+	System.out.println(str);
 	
 	String[] strArray = str.split(" ");
 			
 //	for(i=0;i<strArray.length;i++) {
 //		System.out.println(strArray[i]);
 //	}
-	for(j=0;j<strArray.length;j++) {
-		int lastindex =strArray[j].length()-1;
+	
+	for( i = 0;i<strArray.length;i++) {
 		
-		int first = strArray[j].charAt(0);
-		int last = strArray[j].charAt(lastindex);
-		
-		
-		if(first == last){
-			q.add(strArray[j]);
-			
-		}
-		else {
-		
+		for(char l : strArray[i].toCharArray()) {
+			System.out.println(l);
 		}
 		
 	}
-	System.out.println(q);
+	
+	
+	
+	
+	
+	// checking for the number == number reverse
+//	
+//	for(j=0;j<strArray.length;j++) {
+//		int lastindex =strArray[j].length()-1;
 		
+//		int length = strArray[j].length();
+//		
+//		System.out.println(strArray[j]+" "+length);
+		
+     //		int first = strArray[j].charAt(0);
+//		int last = strArray[j].charAt(lastindex);
+//		
+//		
+//		if(first == last){
+//			q.add(strArray[j]);
+//			
+//		}
+//		else {
+//		
+//		}
+//		
+//	}
+//	System.out.println(q);
+//		
 	
 }
 			
