@@ -1,0 +1,24 @@
+{
+"data": {
+	
+	"Rice":[
+			{  "Name":"Rice 1","Price":"100"},
+			{  "Name":"Rice 2","Price":"50"	},
+			{  "Name":"Rice 3","Price":"80"	}
+
+		],
+
+	"Wheat":[
+
+			{"Name":"Wheat 1","Price":"30"},
+			{"Name":"Wheat 2","Price":"45"},
+			{"Name":"Wheat 3","Price":"40"}
+	],
+	
+	"Pulses":[
+			{"Name":"Pulse 1","Price":100},
+			{"Name":"Pulse 2","Price":80},
+			{"Name":"Pulse 3","Price":75}
+	]
+}
+}
