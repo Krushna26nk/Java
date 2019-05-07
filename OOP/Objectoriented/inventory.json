@@ -1,24 +1,23 @@
 {
-"data": {
 	
 	"Rice":[
-			{  "Name":"Rice 1","Price":"100"},
-			{  "Name":"Rice 2","Price":"50"	},
-			{  "Name":"Rice 3","Price":"80"	}
+			{  "Name":"Basmati","Price":100,"Weight":15},
+			{  "Name":"Indrayani","Price":50,"Weight":10	},
+			{  "Name":"Mother-India","Price":80,"Weight":5	}
 
 		],
 
 	"Wheat":[
 
-			{"Name":"Wheat 1","Price":"30"},
-			{"Name":"Wheat 2","Price":"45"},
-			{"Name":"Wheat 3","Price":"40"}
+			{"Name":"Sharbati","Price":30,"Weight":10},
+			{"Name":"Wheat487","Price":45,"Weight":5},
+			{"Name":"Wheat1270","Price":40,"Weight":25}
 	],
 	
 	"Pulses":[
-			{"Name":"Pulse 1","Price":100},
-			{"Name":"Pulse 2","Price":80},
-			{"Name":"Pulse 3","Price":75}
+			{"Name":"Pulse 1","Price":100,"Weight":15},
+			{"Name":"Pulse 2","Price":80,"Weight":8},
+			{"Name":"Pulse 3","Price":75,"Weight":14}
 	]
-}
+
 }
