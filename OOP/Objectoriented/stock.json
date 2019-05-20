@@ -2,14 +2,14 @@
 	
 	"Stocks_Detail":[
 	
-			{ "id":1, "Stock_Name":"TCS","Price":1000},
-			{  "id":2,"Stock_Name":"LIC","Price":5000},
-			{"id":3,  "Stock_Name":"HDFC","Price":8000},
+			{ "id":1, "stock_Name":"TCS","price":1000},
+			{  "id":2,"stock_Name":"LIC","price":5000},
+			{"id":3,  "stock_Name":"HDFC","price":8000},
 
 	
-			{"id":4,"Stock_Name":"ICICI","Price":3000},
-			{"id":5,"Stock_Name":"INFO","Price":4500},
-			{"id":6,"Stock_Name":"Dr.RedLabz","Price":4000}
+			{"id":4,"stock_Name":"ICICI","price":3000},
+			{"id":5,"stock_Name":"INFO","price":4500},
+			{"id":6,"stock_Name":"Dr.RedLabz","price":4000}
 	
 			
 	]

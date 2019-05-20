@@ -1,3 +1,9 @@
+/*
+ * Purpose:   Json Inventory Management
+ *	@author: Krushna Nikam.
+ */		
+
+
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.FileWriter;
